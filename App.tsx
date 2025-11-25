@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import { FinancialRecord, VarianceResult, AnalysisConfig } from './types';
 import { calculateVariance, generateMockData } from './utils';
 import VarianceTable from './components/VarianceTable';
